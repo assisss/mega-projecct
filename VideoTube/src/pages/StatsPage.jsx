@@ -49,7 +49,7 @@ const StatsPage = () => {
       <div className="flex justify-between">
         <div>
           <h1 className="text-3xl font-bold">Welcome back, {fullName}</h1>
-          <p>Track, manage and forecast your customers and orders.</p>
+          <p>Organize, Upload, and Analyze Your Videos All in One Place.</p>
         </div>
         <div className="mr-2">
           <VideoUploadDialog />
