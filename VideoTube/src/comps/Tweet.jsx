@@ -8,7 +8,7 @@ import ProfilePageTweetCard from "@/Card/ProfilePageTweetCard";
 
 const Tweet = () => {
   const { profile } = useParams();
-  const  username  = useSelector((state) => state.userInfo);
+  const  username  = useSelector((state) => state.userInfo.username);
   const userAvatar = useSelector((state) => state.userInfo.avatar);
   const [tweets, setTweets] = useState([]);
   const [avatar, setAvatar] = useState();
